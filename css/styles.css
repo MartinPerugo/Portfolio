@@ -225,3 +225,24 @@ ul {
     background-color: var(--color-accent);
     color: var(--color-bg);
 }
+
+
+/* About ----- */
+
+.about {
+    padding-block: 6rem;
+}
+
+
+.about p:first-child {
+    color: var(--color-accent);
+    font-family: var(--font-code);
+    font-size: 0.8rem;
+    padding-bottom: 2rem;
+}
+
+
+.about h2 {
+    font-size: clamp (4rem, 8vw, 10rem);
+    margin-bottom: 2rem;
+}
