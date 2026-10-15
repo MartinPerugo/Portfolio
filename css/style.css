@@ -1,0 +1,67 @@
+/* ===== VARIABLES ===== */
+:root {
+    /* Colores */
+    --color-bg: #0c0c3a;
+    --color-surface: #1c1c6b;
+    --color-text: #fcfcfc;
+    --color-muted: #bcbcbc;
+    --color-gold: #f8b800;
+    --color-red: #f83800;
+    --color-green: #00a800;
+
+    /* Fuentes */
+    --font-pixel: "Press Start 2P", monospace;
+    --font-body: "Inter", sans-serif;
+}
+
+/* ===== RESET ===== */
+* {
+    box-sizing: border-box;
+}
+
+/* ===== BASE ===== */
+body {
+    margin: 0;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-body);
+}
+
+/* ===== TÍTULOS ===== */
+h1,
+h2,
+h3 {
+    color: var(--color-gold);
+    font-family: var(--font-pixel);
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 0.8rem;
+}
+
+/* ===== MENÚ ===== */
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--color-red);
+}
